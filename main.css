@@ -1,0 +1,32 @@
+.content__width {
+  max-width: 450px;
+  margin: 0 auto;
+  width: 85%;
+}
+legend,
+h3 {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+  margin: 0;
+}
+fieldset {
+  border-radius: 4px;
+}
+.input__controls {
+  transition: all 0.2s ease-in;
+}
+.input__controls:hover {
+  transform: translate(-0.25rem, -0.25rem);
+  box-shadow: 0.25rem 0.25rem #000;
+}
+.output {
+  font: 1rem 'Fira Sans', sans-serif;
+}
+input {
+  margin: .4rem;
+}
+.input__controls {
+  border: 1px solid rgb(192, 192, 192);
+  margin: 1rem 0;
+}

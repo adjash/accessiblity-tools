@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accessibility Checker</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="content__width">
+      <div class="full__width">
+
+        <h1>Accessibility Checker</h1>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="content__width">
+        <div class="full__width">
+          <form id="text__contrast_test">
+            <fieldset>
+              <legend>Text Contrast Ratio Checker</legend>
+              <div class="input__controls">
+
+                <h3>Foreground Color</h3>
+                <input type="color" name="foreground color" id="foreground_color">
+                <label for="foreground color">Foreground Color</label><br/>
+              </div>
+              <div class="input__controls">
+
+                <h3>Background Color</h3>
+                <input type="color" name="background color" id="background_color">
+                <label for="background color">Background Color</label><br/>
+              </div>
+              <div class="text__contrast_output">
+                <h2>Output of the contrast ratio checker</h2>
+              </div>
+              <div class="text__contrast_results">
+                <div class="result__text">
+
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
